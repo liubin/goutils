@@ -1,10 +1,5 @@
 package goutils
 
-const (
-	MERGE_OPTION_OVERRIDE = 1
-	MERGE_OPTION_DISCARD  = 2
-)
-
 func MergeStringMap(m1, m2 map[string]string) map[string]string {
 	result := map[string]string{}
 
